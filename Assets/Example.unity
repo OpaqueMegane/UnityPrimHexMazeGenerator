@@ -369,7 +369,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mazeDimensions: {x: 16, y: 16}
-  cellDistance: 3
+  cellDistance: 2
   markNodeTiles: 0
   _pathTile: {fileID: 0}
   _wallTile: {fileID: 11400000, guid: 6c463e507ff325d44b2cd0b243079fdb, type: 2}
