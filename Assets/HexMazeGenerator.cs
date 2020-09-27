@@ -138,10 +138,6 @@ public class HexMazeGenerator : MonoBehaviour
 
     void fillInTraversableTilesRecursive(MazeNode node)
     {
-
-
-        Debug.LogError(node.coord);
-
         Vector3Int nodeCoordV3 = new Vector3Int(node.coord.x * cellDistance, node.coord.y * cellDistance, 0);
         nodeCoordV3 = getNoisyLoc(node, nodeCoordV3);
         //Draw the tile at the node...
